@@ -11,6 +11,18 @@ def is_prime(num)
   return true
 end
 
+
+def is_prime(num)
+  return true if num == 2
+
+  return false if num % 2 == 0
+
+  (3..sqrt(num))
+    
+  end
+
+end
+
 def get_prime_factors(n)
   output = []
   # Return all unique prime factors of n in ascending order using a time complexity of O(√n).
